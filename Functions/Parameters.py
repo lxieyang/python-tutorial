@@ -1,56 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-print 'Using abs()'
-print 'The absolute value of -12112 is ', abs(-12112)
-
-print '\ncmp(1, 2)', cmp(1, 2)
-print 'cmp(2, 2)', cmp(2, 2)
-print 'cmp(4, 2)', cmp(4, 2)
-
-print '\nConversion: '
-print '12.345 -> int: ', int(12.345)
-
-print 'Alias'
-print 'Setting theAbsoluteValueFunction as an alias of abs()'
-theAbsoluteValueFunction = abs
-print 'The abs of -12312 is ', theAbsoluteValueFunction(-12312)
-
-print '\nDefining a function'
-print 'Defining my own abs() as theAbs'
-def theAbs(x):
-    if x >= 0:
-        return x
-    else:
-        return -x
-print 'The absolute value of -23 is ', theAbs(-23)
-
-print '\nUsing \'pass\''
-def noop():
-    pass
-print 'Calling noop(): ', noop()
-print '\nInstance check:'
-def newAbs(x):
-    if not isinstance(x, (int, float)):
-        raise TypeError('bad operand type')
-    if x >= 0:
-        return x
-    else:
-        return -x
-print 'Calling newAbs(): '
-print 'The abs of -123.123 is: ', newAbs(-123.123)
-
-print '\nReturning multiple values'
-import math
-def move(x, y, step, angle = 0):
-    nx = x + step * math.cos(angle)
-    ny = y + step * math.sin(angle)
-    return nx, ny
-print 'Calling move(100, 100, 60, math.pi / 6):'
-first, second = move(100, 100, 60, math.pi / 6)
-print first, second
-print 'Calling move(5, 5, 3, math.pi / 2):'
-retVal = move(5, 5, 3, math.pi / 2)
-print retVal
 
 print '\nDefault parameter:'
 def power(x, n = 2):

@@ -7,7 +7,7 @@ To directly run your python script, add the following to the first line of your 
 ```
 Then, run the following command:
 ```
-$ chmod a+x hello.py
+$ chmod a+x first.py
 ```
 Then you can run the program like this:
 ```

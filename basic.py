@@ -67,6 +67,11 @@ film = [1, 'Apollo 13', 2, 'Terminator', 3, 'Star Wars']
 media = ['TV', show, 'Movie', film]
 print 'The length of media is: ', len(media)
 print media
+print 'Trying to sort list'
+l = ['Michael', 'Sara', 'Jack', 'Kim', 'terminator', '123']
+print 'Initial list: ', l
+l.sort()
+print 'Sorted list: ', l
 
 print '\nUsing tuple'
 t = (1, 2, 3)
@@ -105,6 +110,7 @@ for x in range(101):
 print sum
 
 print '\nWhile loop'
+print 'Calculating the sum of all odd numbers from 0 to 100'
 sum = 0
 n = 99
 while n > 0:
@@ -136,4 +142,17 @@ print ss
 print 'Adding 8:'
 ss.add(8)
 print ss
+print 'Removing 5:'
+ss.remove(5)
+print ss
+print 'Comparing s1 and s2:'
+s1 = set([1, 2, 3])
+s2 = set([2, 3, 4])
+s3 = set([3, 4, 5])
+print 's1 is ', s1
+print 's2 is ', s2
+print 's3 is ', s3
+print 'INTERSECTION: s1 & s2 is ', s1 & s2
+print 'INTERSECTION: s1 & s2 & s3', s1 & s2 & s3
+print 'UNION: s2 | s3 is ', s2 | s3
 

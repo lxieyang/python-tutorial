@@ -13,3 +13,9 @@ Then you can run the program like this:
 ```
 $ ./first.py
 ```
+
+###UTF-8
+To use UTF-8, add the following to the second line (if the first is occupied by the `#!/usr/bin/env python`):
+```
+# -*- coding: utf-8 -*-
+```

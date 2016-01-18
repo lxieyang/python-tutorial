@@ -117,6 +117,12 @@ while n > 0:
     sum = sum + n
     n = n - 2
 print sum
+print 'Testing \'break\''
+i = 12
+for k in range(3, 15):
+    print k, ' ',
+    if k >= 12:
+        break;
 
 print '\nUsing dict'
 d = {'Michael': 100, 'Sara': 87, 'Tracy': 93}

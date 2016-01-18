@@ -5,7 +5,7 @@ If you are using a Mac or a Linux machine and want to directly run your python s
 ```
 #!/usr/bin/env python
 ```
-Then, run the following command:
+Then, run the following command in Terminal:
 ```
 $ chmod a+x first.py
 ```

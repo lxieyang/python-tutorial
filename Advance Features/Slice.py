@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 L = ['michael', 'sara', 'jack', 'kim', 'kate', 'steve']
 print 'Original: ', L
 print L[0:3]    # slicing

@@ -1,7 +1,7 @@
 Python tutorial
 ============
 This is a python tutorial repo containing several pieces of python starter code.
-To directly run your python script, add the following to the first line of your code if you are using a Mac or Linux
+If you are using a Mac or a Linux machine and want to directly run your python script via Terminal, add the following to the first line of your code:
 ```
 #!/usr/bin/env python
 ```

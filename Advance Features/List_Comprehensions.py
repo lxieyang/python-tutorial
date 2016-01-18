@@ -32,5 +32,3 @@ print 'To lower:', [s.lower() for s in l]
 ll = ['HelLo', 'WoRlD', 18, 'heihei', 'Taylor']
 print 'Original:', ll
 print 'To lower:', [s.lower() for s in ll if isinstance(s, str)]    # isinstance
-
-
